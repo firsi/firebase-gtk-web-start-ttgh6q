@@ -175,7 +175,7 @@ firebase.firestore()
 .onSnapshot(snap => {
  const newAttendeeCount = snap.docs.length;
 
- numberAttending.innerHTML = newAttendeeCount+'participants'; 
+ numberAttending.innerHTML = newAttendeeCount+' participants'; 
 })
 
 function subscribeCurrentRSVP(user){
